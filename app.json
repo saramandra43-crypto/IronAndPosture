@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Iron&Posture",
+    "slug": "iron-and-posture",
+    "scheme": "ironposture",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.ironposture.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0C0E"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
